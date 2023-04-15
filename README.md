@@ -1,18 +1,34 @@
 # Cryptonite 
-A decentralized cryptocurrency exchange
+A decentralized cryptocurrency exchange built with Nextjs, Reactjs and Solidity
 
+## Pre-Installation
+- Node@9.10.0
+- Truffle@5.4.14
+- Ganache
+- MetaMask
 
-## Features
-Users can connect their ethereum wallet such as MetaMask and transfer ethereum to any other ethereum wallet on the same network.
+## Installation
+open the project directory in terminal and install dependencies using
+```
+npm install
+```
+incase of version deprecation in the future 
+```
+npm install --legacy-peer-deps
+```
 
-![screenshot](screenshots/connect.jpg)
-![screenshot](screenshots/confirm.jpg)
-The transaction is stored as a gif and posted in the block section of the application.
-![screenshot](screenshots/block.jpg)
-User also can verify the transaction on etherscan by clicking on "_To: xxxxxxxxx_" of any block.
+## Execute
+After the installation is compelete, inside the project directory run
+```
+npm run dev
+```
+
+Don't forget to conenct your Metamask with Ganache
+
 
 ## Tech
 - ReactJS
+- NextJS
 - Truffle
 - Ganache
 - Ethereum
